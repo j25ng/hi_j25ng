@@ -10,6 +10,9 @@ requires-python = "==3.12.*"
 readme = "README.md"
 license = {text = "MIT"}
 
+[project.scripts]
+hi-j25ng = "hi_j25ng.hello:hi"
+	 # "패키지이름.파일이름:함수이름"
 
 [tool.pdm]
 distribution = true 
